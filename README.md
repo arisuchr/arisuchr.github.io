@@ -7,7 +7,7 @@
 Вы можете получить доступ к пред-релизам сайта. Для этого свжитесь с Арису.
 # English
 ## What is arisuchr.github.io?
-This is a website on GitHub Pages. A mail Arisu's site can load some static data from it.
+This is a website on GitHub Pages. A main Arisu's site can load some static data from it.
 ## Where to find arisuchr.ml's source codes?
 The main site is **under the development**! After the release, you can download an archive with all source codes under a GPL 3.0 license.
 ## Can I help with the development?
