@@ -13,7 +13,7 @@ The main site is **under the development**! After the release, you can download 
 ## Can I help with the development?
 You can get an access to site's beta releases. If you want to, please contact wih Arisu.
 # Ссылки/Links:
-Telegram: @ArisuChr
-Telegram #2: @arisu_chan
-ProtonMail: arisuchr@protonmail.ch
-Tutanota: arisuchr_dev@tuta.io
+_Telegram_: https://t.me/ArisuChr<br>
+_Telegram #2_: https://t.me/arisu_chan<br>
+_ProtonMail_: arisuchr@protonmail.ch<br>
+_Tutanota_: arisuchr_dev@tuta.io
