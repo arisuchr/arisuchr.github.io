@@ -1,15 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script&display=swap');
 
 body {
-    -moz-user-select: none;
-    -webkit-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
   background-color: #263238;
   background: url(github_bg.jpg) no-repeat;
-  -moz-background-size: 100%;
-  -webkit-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
-  background-size: cover;
+  background-size: inherit;
+  background-position: left;
   overflow: hidden;
   margin: 0;
 }
