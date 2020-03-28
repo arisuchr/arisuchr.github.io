@@ -4,9 +4,8 @@ body {
   -moz-user-select: none;
   -webkit-user-select: none;
   background-color: #263238;
-  background: url(github_bg.jpg) no-repeat;
-  background-size: inherit;
-  background-position: left;
+  background: url(github_bg.jpg) no-repeat fixed;
+  background-size: cover;
   overflow: hidden;
   margin: 0;
 }
@@ -58,7 +57,7 @@ a:hover {
 }
 
 #darkest {
-    position: absolute;
+    position: fixed;
     width: 100%;
     height: 100%;
     background: rgba(22,22,22,0.5);
