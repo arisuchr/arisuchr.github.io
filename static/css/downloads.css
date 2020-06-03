@@ -1,0 +1,71 @@
+@import url('../fonts/MarckScript/marck.css');
+
+#downloads {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: var(--dark);
+}
+#dwn-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: var(--darker);
+    color: var(--light);
+}
+#dwn-h-icon {
+    background: url('../images/icon.jpg') no-repeat;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    border-radius: 50%;
+    border: 2px solid var(--accent);
+}
+#dwn-header * {
+    display: inline-block;
+}
+#dwn-header > h1 {
+    margin: 0;
+    font-family: 'Marck Script', cursive;
+    position: relative;
+    top: -15px;
+}
+#dwn-quit {
+    background: url('../images/quit.svg') no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 25px;
+    height: 30px;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+}
+#dwn-quit > path {
+    transition: linear 0.3s;
+}
+#dwn-quit > path:hover {
+    fill: #db2a5b;
+}
+#dwn-content {
+    width: 100%;
+    height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--darker);
+    position: fixed;
+    top: 50px;
+    left: 0;
+}
+#dwn-content > h1 {
+    font-size: 5em;
+}
+#dwn-content > h2 {
+    font-family: 'Marck Script', sans-serif;
+}
+
