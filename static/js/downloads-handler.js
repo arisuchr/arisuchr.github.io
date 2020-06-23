@@ -21,20 +21,20 @@ LICENSE file is localated at /LICENSE
 
 'use strict';
 
-let leftInfo = document.getElementsByClassName('link-text');
 let downloads = document.getElementById('downloads');
 
 left.onclick = function() {
     /* FIX: Without that, .left can change its width. */
     body.onmouseover = undefined;
-    
+
     left.style.width = '100%';
     right.style.display = 'none';
-    for (let block of leftInfo) {
-        block.style.color = 'transparent';
-        setTimeout(() => block.style.display = 'none', 500);
-    }
-    left.style.cursor = 'default';
-    downloads.style.display = 'block';
-};
 
+    /* An animation for hiding .left */
+    left.style.transition = 'ease-out 0.6s'; // Speed of the animation
+    left.style.opacity = '0';
+    setTimeout(function() {
+      left.style.display = 'none';
+      downloads.style.display = 'block';
+    }, 600); // Delay before hiding
+};

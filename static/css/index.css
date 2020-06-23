@@ -8,6 +8,7 @@ body {
 	position: fixed;
 	font-family: 'Nunito', sans-serif;
 	font-size: 0.8em;
+	background-color: var(--dark);
 }
 body h1, body h2 {
     font-weight: normal;
@@ -88,4 +89,3 @@ h2 > #trap {
     color: var(--darker);
     text-decoration: none;
 }
-
